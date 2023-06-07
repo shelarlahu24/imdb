@@ -4,7 +4,7 @@ import Link from 'next/link'
 import React from 'react'
 import { useSearchParams } from 'next/navigation'
 
-export default function ({ title, params }) {
+export default function NavbarItem({ title, params }) {
   const searchParams = useSearchParams()
   const genre = searchParams.get('genre')
 
